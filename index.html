@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html  data-theme="light" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/665bbe3d61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <div id="nav" class="h-28 bg-slate-400 flex gap-8 justify-center items-center">
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="mt-5">
+
+            <div  class="flex justify-center items-center gap-1 ">
+                <input id="search" class="border-2 h-11" type="search" name="" placeholder="Search here ....">
+                <button onclick="handleSearch()" id="search-btn" class="btn">Search</button>
+            </div>
+            <div id="loading" class="h-20  w-full flex justify-center items-center bg-red-800">
+                <i class="fa-solid fa-spinner"></i>
+
+            </div>
+
+        </section>
+
+        <section class="mt-20 mx-80">
+
+           <div id="news" class="space-y-12">
+           
+           </div>
+
+        </section>
+
+        <!-- <section>
+            
+        </section> -->
+
+    </main>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
